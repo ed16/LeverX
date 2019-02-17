@@ -1,0 +1,38 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #EEEEEE;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-bottom: 20px solid #EEEEEE; 
+  border-top: 20px solid #EEEEEE; 
+  border-collapse: collapse ;
+}
+
+td {
+  padding: 60px;
+}
+
+.orange{
+  background: orange;
+}
+
+.lime{
+  background: limegreen;
+}
+
+.blueberry{
+   background: blueviolet;
+}
+
+.grey{
+   background: grey;
+}
+
+.borderright{
+  border-right: 20px solid #EEEEEE; 
+}
