@@ -1,0 +1,74 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #EEEEEE;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-bottom: 20px solid #EEEEEE; 
+  border-top: 20px solid #EEEEEE; 
+  border-collapse: collapse ;
+}
+
+td {
+  padding: 60px;
+}
+
+div{
+  min-height: 200px;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  border-bottom: 20px solid #EEEEEE; 
+  border-top: 20px solid #EEEEEE; 
+  border-collapse: collapse ;
+  box-sizing: border-box;
+}
+
+.orange{
+  background: orange;
+
+}
+
+.lime{
+  background: limegreen;
+}
+
+.blueberry{
+   background: blueviolet;
+}
+
+.grey{
+   background: grey;
+}
+
+.borderright{
+   border-right: 20px solid #EEEEEE;
+/*   margin-right: -20px; */
+}
+
+div.orange{
+    width: 50%;
+    float: left;  
+}
+div.lime{
+    width: 100%;
+    float: left;  
+}
+div.blueberry{
+    width: 33.333%;
+    float: left;  
+}
+div.grey{
+    width: 25%;
+    float: left;  
+}
+div.wrapper{
+  min-width: 100%;  
+  border: 0px solid #EEEEEE; 
+}
+
+

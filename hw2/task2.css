@@ -1,0 +1,38 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #EEEEEE;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  min-height: 200px;
+  min-width: 200px;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  position: relative;
+}
+
+.orange {
+  background: orange;
+  left: 200px;
+  top: 200px;
+  z-index: 1;
+}
+
+.lime {
+  background: limegreen;
+  left: 300px;
+  top: 100px;
+  z-index: 3;
+}
+
+.blueberry {
+  background: blueviolet;
+  left: 400px;
+  top: 0px;
+  z-index: 2;
+}
